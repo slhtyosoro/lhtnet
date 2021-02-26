@@ -1,0 +1,40 @@
+{
+  "name": "lhtnet",
+  "version": "1.0.0",
+  "description": "网络连接框架",
+  "main": "index.js",
+  "browser": "indexBrowser.js",
+  "scripts": {
+    "start": "npx jasmine"
+  },
+  "homepage": "https://yosoro.cn",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:slhtyosoro/lhtnet.git"
+  },
+  "keywords": [
+    "multiplayer",
+    "networking",
+    "interpolation",
+    "game",
+    "mmo",
+    "lag",
+    "compensation",
+    "prediction",
+    "binary",
+    "compression"
+  ],
+  "author": "haitao liu",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@clusterws/cws": "^3.0.0",
+    "esm": "^3.2.22",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  },
+  "bugs": {
+    "url": "https://github.com/slhtyosoro/lhtnet/issues"
+  }
+}
